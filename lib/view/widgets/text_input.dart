@@ -21,9 +21,11 @@ class TextInputField extends StatelessWidget {
     return TextField(
       obscureText: toHide,
       controller: controller,
+      // keyboardType: TextInputType.emailAddress,
       decoration: InputDecoration(
         icon: Icon(myIcon),
         labelText: myLabelText,
+
         enabledBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(5),
             borderSide: BorderSide(color: borderColor)),

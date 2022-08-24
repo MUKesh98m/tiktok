@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:tiktok/controllers/auth_controlle.dart';
 import 'package:tiktok/view/widgets/glich.dart';
 
 import '../../widgets/text_input.dart';
@@ -47,7 +48,10 @@ class login1 extends StatelessWidget {
               height: 20,
             ),
             ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  AuthController.instance
+                      .login(_emailController.text, _passwordController.text);
+                },
                 child: Container(
                   padding: EdgeInsets.symmetric(horizontal: 50, vertical: 10),
                   child: Text("Login"),
