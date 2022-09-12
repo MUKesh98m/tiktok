@@ -20,7 +20,7 @@ class login1 extends StatelessWidget {
             GlithEffect(
                 child: Text("TikTok Clone",
                     style:
-                        TextStyle(fontSize: 30, fontWeight: FontWeight.bold))),
+                    TextStyle(fontSize: 30, fontWeight: FontWeight.bold))),
             SizedBox(
               height: 30,
             ),

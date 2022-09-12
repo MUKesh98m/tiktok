@@ -11,7 +11,7 @@ class SignUpScreen extends StatelessWidget {
   TextEditingController _usernamecontroller = new TextEditingController();
   TextEditingController _setasswordController = new TextEditingController();
   TextEditingController _confirmpasswordController =
-      new TextEditingController();
+  new TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,12 +24,12 @@ class SignUpScreen extends StatelessWidget {
             children: [
               GlithEffect(
                   child: Text(
-                "Welcome To TikTok",
-                style: TextStyle(
-                  fontSize: 30,
-                  fontWeight: FontWeight.bold,
-                ),
-              )),
+                    "Welcome To TikTok",
+                    style: TextStyle(
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  )),
               SizedBox(
                 height: 30,
               ),
